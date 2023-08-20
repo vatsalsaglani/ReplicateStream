@@ -6,7 +6,7 @@ from parsing import parse_message
 from stream import stream_data
 
 
-class ReplicateChatCompletion:
+class ReplicateStreamChatCompletion:
     def __init__(self, model_name: str, api_token: str):
         self._model = model_name
         self._token = api_token

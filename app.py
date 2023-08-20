@@ -2,7 +2,7 @@ import os
 import argparse
 from time import sleep
 
-from chat import ReplicateChatCompletion
+from chat import ReplicateStreamChatCompletion
 from configs import *
 
 parser = argparse.ArgumentParser(description="Replicate stream completion")
@@ -24,7 +24,7 @@ model_version = args.replicate_model_version
 
 # print(f'MODEL VERSION: {model_version}')
 
-completion = ReplicateChatCompletion(
+completion = ReplicateStreamChatCompletion(
     model_version,
     REPLICATE_API_TOKEN,
 )
