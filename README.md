@@ -4,7 +4,7 @@ This repository provides an example on how one can stream responses from LLMs on
 
 ## Demo
 
-https://github.com/vatsalsaglani/ReplicateStream/blob/main/content/replicate_stream.mov
+<video src="https://github.com/vatsalsaglani/ReplicateStream/blob/main/content/replicate_stream.mov"></video>
 
 ## Getting started
 
