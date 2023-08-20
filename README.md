@@ -2,6 +2,10 @@
 
 This repository provides an example on how one can stream responses from LLMs on replicate using Python.
 
+## Demo
+
+https://github.com/vatsalsaglani/ReplicateStream/blob/main/content/replicate_stream.mov
+
 ## Getting started
 
 Let's look at how we can run this code and stream responses in terminal.
